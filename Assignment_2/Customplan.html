@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>FitFusion - Your Personalized Fitness Journey</title>
+    <style>
+.hero {
+    height: 70vh;
+    background-image: url('image/Customplan.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10px;
+    height: 85%;
+    align-items: center;
+    width: 85%;
+    display: inline-block;
+    border-radius: 130px;
+}
+.hero h1{
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    margin-right: 15vh;
+}
+.form-group label {
+    flex: 1;
+    text-align: right;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.form-group input {
+    padding: 10px;
+    width: 50vh;
+    border-radius: 90px;
+}
+.submit {
+    background-color: white;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 90px;
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="image/Treadmill.png" alt="FitFusion Icon">
+            FitFusion
+        </div>
+        <nav class="nav-links">
+            <a href="Myplan.html">My Plan</a>
+            <a href="Service.html">Services</a>
+            <a href="Pricing.html">Pricing</a>
+            <a href="About.html">About Us</a>
+        </nav>
+        <nav><a href="Signup.html" class="sign-up-btn">Sign-Up</a></nav>
+    </header>
+    <section class="hero">
+        <div class="overlay">
+            <h1>Build Custom Plan</h1>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="fat">Fat%:</label>
+                    <input type="text" id="fat" name="fat">
+                </div>
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age">
+                    <label for="goal">Goal:</label>
+                    <input type="text" id="goal" name="goal">
+                </div>
+                <div class="form-group">
+                    <label for="weight">Weight:</label>
+                    <input type="text" id="weight" name="weight">
+                    <label for="timeline">TimeLine:</label>
+                    <input type="text" id="timeline" name="timeline">
+                </div>
+            <a href="Profile.html" class="submit">SUBMIT</a>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div>
+                <div class="footer-logo">
+                    <img src="image/Treadmill.png" alt="FitFusion Icon">
+                    FitFusion
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="Customplan.html">Projects</a>
+                <a href="Customplan.html">Blog</a>
+                <a href="About.html">About Us</a>
+                <a href="Service.html">Services</a>
+            </div>
+
+            <div class="footer-links">
+                <a href="Customplan.html">Gallery</a>
+                <a href="Customplan.html">Trainers</a>
+                <a href="About.html">Overview</a>
+                <a href="Customplan.html">Blog</a>
+                <a href="About.html">Articles</a>
+            </div>
+
+            <div class="footer-links">
+                <a href="Service.html">Terms Of Service</a>
+                <a href="About.html">Privacy Policy</a>
+                <a href="Customplan.html">Progress Tracker</a>
+                <a href="Customplan.html">FAQs</a>
+                <a href="Service.html">Terms Of Service</a>
+            </div>
+
+            <div class="footer-contact">
+                <p>Email: contact@diyelectronics.com</p>
+                <p>Phone: +1 (123) 456-9999</p>
+                <p>Address: FitFusion club, Ahmedabad, Gujarat, INDIA</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div>©FitFusion|All Rights Reserved</div>
+            <div class="logo">
+                <img src="image/Treadmill.png" alt="FitFusion Icon">
+                FitFusion
+            </div>
+            <div class="social-icons">
+                <img src="image/Instagram.png" alt="FitFusion Icon">
+                <img src="image/Facebook.png" alt="FitFusion Icon">
+                <img src="image/YouTube.png" alt="FitFusion Icon">
+                <img src="image/X.png" alt="FitFusion Icon">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
